@@ -48,7 +48,7 @@ int main() {
 
       //printf("time: %f;step: %d\n",time,steps);
 
-      printf("%1.3f\n", (float)steps * 6.5 * 3.14 / 32 / time);
+      printf("%1.3f\r\n", (float)steps * 6.5 * 3.14 / 32 / time);
 
       i += 30;
    }
